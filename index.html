@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--======================FAVICON=======================-->
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <!--======================BOXICONS=======================-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--======================  SWIPER CSS =======================-->
+    <link rel="stylesheet" href="./css/swipper-bundle.min.css" />
+    <!--=============== fontawesome ======================= -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!--=============== CASA  css================ -->
+    <link rel="stylesheet" href="css/casa.css" />
+    <title>CASA HOTEL</title>
+  </head>
+  <body>
+    <!--=============== header ======================= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav--logo">
+          CASA <i class="bx bxs-home-alt-2"></i>
+        </a>
+        <div class="nav--menu">
+          <ul class="nav--list">
+            <li class="nav--item">
+              <a href="#home" class="nav--link">
+                <i class="bx bx-home-alt-2"></i>
+                <span>HOME</span>
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#popular" class="nav--link">
+                <i class="bx bx-building-house"></i>
+                <span>Residences</span>
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#value" class="nav--link">
+                <i class="bx bx-award"></i>
+                <span>Value</span>
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#contact" class="nav--link">
+                <i class="bx bx-phone"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- theme change button  -->
+        <i class="bx bxs-moon change-theme" id="theme-button"></i>
+
+        <a href="#" class="button nav--button"> Subscribe </a>
+      </nav>
+    </header>
+    <!--=============== main  ======================= -->
+    <main class="main">
+      <!--=============== HOME section ======================= -->
+      <section class="home section active--link" id="home">
+        <div class="home--container container grid">
+          <div class="home--data">
+            <h1 class="home--title">
+              Discover <br />
+              Most Suitable <br />
+              Property
+            </h1>
+            <p class="home--description">
+              Find a Variety of properties that suit you very easily, forhet all
+              difficulties in finding a residence fir you
+            </p>
+            <form action="" class="home--search">
+              <i class="bx bxs-map"></i>
+              <input
+                type="search"
+                placeholder="search by location..."
+                class="home--search-input"
+              />
+              <button class="button">Search</button>
+            </form>
+            <div class="home--value">
+              <div>
+                <h1 class="home--value-number">9k <span>+</span></h1>
+                <span class="home--value-description">
+                  Premuim <br />
+                  Product
+                </span>
+              </div>
+              <div>
+                <h1 class="home--value-number">2k <span>+</span></h1>
+                <span class="home--value-description">
+                  Happy <br />
+                  Customer
+                </span>
+              </div>
+              <div>
+                <h1 class="home--value-number">28k <span>+</span></h1>
+                <span class="home--value-description">
+                  Awards <br />
+                  Winning
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="home--images">
+            <div class="home--orbe"></div>
+            <div class="home--img">
+              <img src="./images/home.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== logos section ======================= -->
+      <section class="logos section">
+        <div class="logos--container container grid">
+          <div class="logos--img">
+            <i class="bx bxs-shower"></i>
+          </div>
+          <div class="logos--img">
+            <i class="bx bxs-castle"></i>
+          </div>
+          <div class="logos--img">
+            <i class="bx bxl-postgresql"></i>
+          </div>
+          <div class="logos--img">
+            <i class="bx bxs-balloon"></i>
+          </div>
+        </div>
+      </section>
+      <!--=============== Popular section ======================= -->
+      <section class="popular section" id="popular">
+        <div class="container">
+          <span class="section--subtitle">Best Choise</span>
+          <h2 class="section--title">Popular Residences <span>.</span></h2>
+          <div class="popular--container swiper">
+            <div class="swiper-wrapper">
+              <article class="popular--card swiper-slide">
+                <img
+                  src="./images/popular-card.jpg"
+                  alt=""
+                  class="popular--img"
+                />
+                <div class="popular--data">
+                  <h2 class="popular--price"><span>$</span>66,523</h2>
+                  <h3 class="popular--title">Hurghada</h3>
+                  <p class="popular--description">Street El-Batros,sol #2046</p>
+                </div>
+              </article>
+              <article class="popular--card swiper-slide">
+                <img
+                  src="./images/popular-card2.jpg"
+                  alt=""
+                  class="popular--img"
+                />
+                <div class="popular--data">
+                  <h2 class="popular--price"><span>$</span>86,984</h2>
+                  <h3 class="popular--title">Aswan</h3>
+                  <p class="popular--description">
+                    Street Aswan City Aswan, ABo-Simble ,sol #9234
+                  </p>
+                </div>
+              </article>
+              <article class="popular--card swiper-slide">
+                <img
+                  src="./images/popular-card3.jpg"
+                  alt=""
+                  class="popular--img"
+                />
+                <div class="popular--data">
+                  <h2 class="popular--price"><span>$</span>99,003</h2>
+                  <h3 class="popular--title">El-Gouna</h3>
+                  <p class="popular--description">
+                    Street Marina ABo-Tigh ,sol #934
+                  </p>
+                </div>
+              </article>
+              <article class="popular--card swiper-slide">
+                <img
+                  src="./images/popular-card2.jpg"
+                  alt=""
+                  class="popular--img"
+                />
+                <div class="popular--data">
+                  <h2 class="popular--price"><span>$</span>98,799</h2>
+                  <h3 class="popular--title">El-Gouna</h3>
+                  <p class="popular--description">Street DownTown ,sol #3621</p>
+                </div>
+              </article>
+              <article class="popular--card swiper-slide">
+                <img
+                  src="./images/popular-card6.jpg"
+                  alt=""
+                  class="popular--img"
+                />
+                <div class="popular--data">
+                  <h2 class="popular--price"><span>$</span>9,454</h2>
+                  <h3 class="popular--title">Hurghada</h3>
+                  <p class="popular--description">
+                    Street El-mamsha Mirage ,sol #9647
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-button-next">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="bx bx-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== Value section ======================= -->
+      <section class="value section" id="value">
+        <div class="value--container container grid">
+          <div class="value--images">
+            <div class="value--orbe"></div>
+            <div class="value--img">
+              <img src="./images/pexels-cameron-casey-1334605.jpg" alt="" />
+            </div>
+          </div>
+          <div class="value--content">
+            <div class="value--data">
+              <span class="section--subtitle"> Our Value</span>
+              <h2 class="section--title">
+                Value We Give To You <span>.</span>
+              </h2>
+              <p class="value--description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt beatae hic quo.
+              </p>
+            </div>
+            <div class="value--accordion">
+              <div class="value--accordion-item">
+                <header class="value--accordion-header">
+                  <i class="bx bxs-shield-x value--accordion-icon"></i>
+                  <h3 class="value--accordion-title">
+                    Best Interest Rate In The Market
+                  </h3>
+                  <div class="value--accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value--accordion-content">
+                  <p class="value--accordion-description">
+                    price we provide Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laudantium cumque nemo minima, ex ad
+                    aliquid
+                  </p>
+                </div>
+              </div>
+              <div class="value--accordion-item">
+                <header class="value--accordion-header">
+                  <i class="bx bxl-medium-square value--accordion-icon"></i>
+                  <h3 class="value--accordion-title">
+                    Best Interest Rate In The Market
+                  </h3>
+                  <div class="value--accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value--accordion-content">
+                  <p class="value--accordion-description">
+                    price we provide Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laudantium cumque nemo minima, ex ad
+                    aliquid
+                  </p>
+                </div>
+              </div>
+              <div class="value--accordion-item">
+                <header class="value--accordion-header">
+                  <i class="bx bxs-check-square value--accordion-icon"></i>
+                  <h3 class="value--accordion-title">
+                    Best Interest Rate In The Market
+                  </h3>
+                  <div class="value--accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value--accordion-content">
+                  <p class="value--accordion-description">
+                    price we provide Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laudantium cumque nemo minima, ex ad
+                    aliquid
+                  </p>
+                </div>
+              </div>
+              <div class="value--accordion-item">
+                <header class="value--accordion-header">
+                  <i class="bx bxs-bar-chart-square value--accordion-icon"></i>
+                  <h3 class="value--accordion-title">Security Of your Data</h3>
+                  <div class="value--accordion-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+                <div class="value--accordion-content">
+                  <p class="value--accordion-description">
+                    price we provide Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Laudantium cumque nemo minima, ex ad
+                    aliquid
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Contact section ======================= -->
+      <section class="contact section" id="contact">
+        <div class="contact--container container grid">
+          <div class="contact--images">
+            <div class="contact--orbe"></div>
+            <div class="contact--img">
+              <img src="./images/popular-card4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="contact--content">
+            <div class="contact--data">
+              <span class="section--subtitle">Contact Us</span>
+              <h2 class="section--title">Easy to Contact Us <span>.</span></h2>
+              <p class="contact--description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
+                ducimus commodi aliquam magni corrupti, facilis, repellendus
+                laudantium rerum quam, doloremque molestiae fugit. Consequuntur
+                eos eius quia cupiditate repellat in animi.
+              </p>
+            </div>
+            <div class="contact--card">
+              <div class="contact--card-box">
+                <div class="contact--card-info">
+                  <i class="bx bxs-phone-call"></i>
+                  <div>
+                    <h3 class="contact--card-title">call</h3>
+                    <p class="contact--card-description">012.0183.8102</p>
+                  </div>
+                </div>
+                <button class="button--contact-card button">Call Now</button>
+              </div>
+              <div class="contact--card-box">
+                <div class="contact--card-info">
+                  <i class="bx bxs-message-rounded-dots"></i>
+                  <div>
+                    <h3 class="contact--card-title">Chat</h3>
+                    <p class="contact--card-description">012.0183.8102</p>
+                  </div>
+                </div>
+                <button class="button--contact-card button">Chat Now</button>
+              </div>
+              <div class="contact--card-box">
+                <div class="contact--card-info">
+                  <i class="bx bxs-video"></i>
+                  <div>
+                    <h3 class="contact--card-title">Video</h3>
+                    <p class="contact--card-description">012.0183.8102</p>
+                  </div>
+                </div>
+                <button class="button--contact-card button">
+                  Video Call Now
+                </button>
+              </div>
+              <div class="contact--card-box">
+                <div class="contact--card-info">
+                  <i class="bx bxs-envelope"></i>
+                  <div>
+                    <h3 class="contact--card-title">Message</h3>
+                    <p class="contact--card-description">012.0183.8102</p>
+                  </div>
+                </div>
+                <button class="button--contact-card button">Message Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=============== SUBSCRIBE section ======================= -->
+      <section class="subscribe section" id="contact">
+        <div class="subscribe--container container">
+          <h1 class="subscripe--title">Get start with CASA</h1>
+          <p class="subscribe--description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            ducimus, inventore hic doloremque id praesentium odit voluptatibus,
+            quo, accusantium illo dolorem autem similique repudiandae earum
+            adipisci alias ipsam velit dolor?
+          </p>
+          <a href="" class="button subscribe--button">Get Started</a>
+        </div>
+      </section>
+    </main>
+    <!--================ footer ================= -->
+    <footer class="footer section">
+      <div class="footer--container container grid">
+        <div>
+          <a href="#" class="footer--logo">
+            CASA <i class="bx bxs-home-alt-2"></i>
+          </a>
+          <p class="footer--description">
+            Our Vision is to make all people <br />
+            the best place to live for them.
+          </p>
+        </div>
+        <div class="footer--content">
+          <div>
+            <h3 class="footer--title">
+              Aout
+              <ul class="footer--links">
+                <li>
+                  <a href="#" class="footer--link">About Us</a>
+                </li>
+                <li>
+                  <a href="#" class="footer--link">Features</a>
+                </li>
+                <li>
+                  <a href="#" class="footer--link">New & Blog</a>
+                </li>
+              </ul>
+            </h3>
+          </div>
+
+          <div>
+            <h3 class="footer--title">
+              Company
+              <ul class="footer--links">
+                <li>
+                  <a href="#" class="footer--link">How We Work?</a>
+                </li>
+                <li>
+                  <a href="#" class="footer--link">Capital</a>
+                </li>
+                <li>
+                  <a href="#" class="footer--link">Security</a>
+                </li>
+              </ul>
+            </h3>
+          </div>
+
+          <div>
+            <h3 class="footer--title">
+              Support
+              <ul class="footer--links">
+                <li>
+                  <a href="#" class="footer--link">FAQS</a>
+                </li>
+                <li>
+                  <a href="#" class="footer--link">Support Center</a>
+                </li>
+                <li>
+                  <a href="#" class="footer--link">Contact Us</a>
+                </li>
+              </ul>
+            </h3>
+          </div>
+
+          <div>
+            <h3 class="footer--title">
+              Follow Us
+              <ul class="footer--social">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="footer--social-link"
+                >
+                  <i class="bx bxl-facebook-square"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer--social-link"
+                >
+                  <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a
+                  href="https://twitter.com/home"
+                  target="_blank"
+                  class="footer--social-link"
+                >
+                  <i class="bx bxl-twitter"></i>
+                </a>
+              </ul>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="footer--info container">
+        <span class="footer--copy">
+          &#169; Bedimcode. All rights reserved
+        </span>
+        <div class="footer--privacy">
+          <a href="#"> Tearms & Agreements</a>
+          <a href="#"> Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <!--================ scroll up ================= -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bxs-chevrons-up"></i>
+    </a>
+    <!--================ scroll Reveal ================= -->
+    <script src="./js/scroll.js"></script>
+    <!--================ swipper js ================= -->
+    <script src="./js/swipper-bandle.min.js"></script>
+    <!--================ main.js ================= -->
+    <script src="./js/casa.js"></script>
+  </body>
+</html>
